@@ -4,7 +4,7 @@ import { useNavigate, Navigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 
 const Register = () => {
-  const { user } = useContext(AuthContext); // ⬅Get logged-in user
+  const { user } = useContext(AuthContext); // 
   const navigate = useNavigate();
 
   // Only allow if user is logged in AND an admin
